@@ -1,0 +1,12 @@
+# Core Web Framework
+Flask>=3.0.0
+Werkzeug>=3.0.0
+
+# Scientific & Image Processing
+numpy>=1.24.0
+Pillow>=10.0.0
+opencv-python-headless>=4.8.0
+
+# Deep Learning Framework
+# (Optional for lightweight heuristic/demo mode; install for CNN inference)
+tensorflow>=2.15.0; sys_platform != 'darwin'
